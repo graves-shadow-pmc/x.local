@@ -1,0 +1,64 @@
+meshmap-social/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── AndroidManifest.xml
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── meshmap/
+│   │   │   │           └── social/
+│   │   │   │               ├── MainActivity.kt
+│   │   │   │               ├── AppViewModel.kt
+│   │   │   │               ├── data/
+│   │   │   │               │   └── Models.kt
+│   │   │   │               ├── mesh/
+│   │   │   │               │   ├── MeshNetworkManager.kt
+│   │   │   │               │   └── BluetoothMeshNetworkManager.kt
+│   │   │   │               ├── ai/
+│   │   │   │               │   ├── ContextAI.kt
+│   │   │   │               │   └── OnDeviceNLPManager.kt
+│   │   │   │               ├── service/
+│   │   │   │               │   └── MeshBackgroundService.kt
+│   │   │   │               ├── security/
+│   │   │   │               │   └── EncryptionManager.kt
+│   │   │   │               ├── firebase/
+│   │   │   │               │   └── FirebaseInitializer.kt
+│   │   │   │               ├── map/
+│   │   │   │               │   └── MapOverlayManager.kt
+│   │   │   │               ├── blockchain/
+│   │   │   │               │   └── BlockchainAnchor.kt
+│   │   │   │               ├── util/
+│   │   │   │               │   ├── PermissionsUtil.kt
+│   │   │   │               │   └── GeofenceUtil.kt
+│   │   │   │               ├── ui/
+│   │   │   │               │   ├── screens/
+│   │   │   │               │   │   ├── AppNavHost.kt
+│   │   │   │               │   │   ├── SplashScreen.kt
+│   │   │   │               │   │   ├── ZoneDetectionScreen.kt
+│   │   │   │               │   │   ├── DashboardScreen.kt
+│   │   │   │               │   │   ├── ProfileScreen.kt
+│   │   │   │               │   │   ├── PostScreen.kt
+│   │   │   │               │   │   ├── MeetingScreen.kt
+│   │   │   │               │   │   ├── ChatScreen.kt
+│   │   │   │               │   │   ├── NewsFeedScreen.kt
+│   │   │   │               │   │   ├── SettingsScreen.kt
+│   │   │   │               │   │   └── EmergencyScreen.kt
+│   │   │   │               │   └── components/
+│   │   │   │               │       └── ErrorAndLoading.kt
+│   │   │   │               └── test/
+│   │   │   │                   └── MeshNetworkTest.kt
+│   │   ├── res/
+│   │   │   ├── drawable/
+│   │   │   │   └── (app icons, placeholders)
+│   │   │   └── values/
+│   │   │       └── strings.xml
+│   ├── build.gradle
+│   └── google-services.json (to be added after Firebase setup)
+├── build.gradle
+├── settings.gradle
+├── README.md
+├── BUILD_AND_DEPLOY.md
+├── DECENTRALIZED_LAUNCH_PLAN.md
+├── INTEGRATION_AND_EXTENSION.md
+├── FORKING.md
+└── AGENT_EXECUTION_LOG.md
